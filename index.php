@@ -2,6 +2,9 @@
 
 session_start();
 if(!isset($_SESSION['name'])){
+  echo"<script>
+  alert('logged in as $_SESSION["name"]' );
+  </script>"
   header('location:login.php');
 }
 ?>

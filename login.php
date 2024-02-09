@@ -109,7 +109,7 @@ if($num>0){
   </script");
   session_start();
   $_SESSION['name']=$user;
-  header('location:index.html');
+  header('location:index.php');
 }
 else{
  
